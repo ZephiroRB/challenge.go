@@ -6,7 +6,7 @@
 
 ## Auth
 
-#### `/api/user/register` - POST
+#### `https://challenge.stacklycode.com/api/user/register` - POST
 ```json
   {
     "fullname":"zEpHiRo",
@@ -17,7 +17,7 @@
 
 **returns** - New User created
 
-#### `/api/user/login` - POST
+#### `https://challenge.stacklycode.com/api/user/login` - POST
 ```json
   {
     "email":"zephirotube@zephiro.dev",
@@ -31,7 +31,7 @@
 
 We will need the authentication token for a user and in the above, we generated a token when we logged in user 1. 
 
-#### `/api/skills/register`- POST
+#### `https://challenge.stacklycode.com/api/skills/register`- POST
 ```HEADER Authorization: Bearer Token {JWT token}```
 ```json
 {
@@ -44,7 +44,7 @@ We will need the authentication token for a user and in the above, we generated 
 
 ## Add Skill to User
 
-#### `/api/user/skills` - POST
+#### `https://challenge.stacklycode.com/api/user/skills` - POST
 ```HEADER Authorization: Bearer Token {JWT token}```
 ```json
 {
